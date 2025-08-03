@@ -1,0 +1,17 @@
+{
+	"type": "module",
+	"scripts": {
+		"build": "tsc",
+		"start": "node bot.js",
+		"dev": "export DEBUG='grammy*' && tsc && node bot.js"
+	},
+	"devDependencies": {
+		"@types/node": "^24.1.0",
+		"typescript": "^5.9.2"
+	},
+	"dependencies": {
+		"dotenv": "^17.2.1",
+		"grammy": "^1.37.0",
+		"https-proxy-agent": "^7.0.6"
+	}
+}
